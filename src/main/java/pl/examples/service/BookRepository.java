@@ -1,5 +1,6 @@
 package pl.examples.service;
 
+import org.springframework.stereotype.Component;
 import pl.examples.model.Book;
 
 import java.util.LinkedList;
@@ -8,6 +9,7 @@ import java.util.List;
 /**
  * Created by toustym on 08.10.2017.
  */
+@Component
 public class BookRepository implements GenericRepository<String, Book> {
 
     private List<Book> books;
