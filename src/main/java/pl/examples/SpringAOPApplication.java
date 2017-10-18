@@ -27,7 +27,7 @@ public class SpringAOPApplication {
         repo.add(new Book("2-234-234-234", "Książka druga", "Autor drugiej książki"));
         repo.add(new Book("3-345-345-345", "Książka trzecia", "Autor trzeciej książki"));
 
-        Book bookData = repo.get("3-345-345-345");
+        Book bookData = repo.get("2-234-234-234");
         System.out.println(bookData);
 
         ctx.close();
