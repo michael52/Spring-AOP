@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by toustym on 09.10.2017.
  */
-@Aspect
+//@Aspect
 @Component
 public class LoggerAspect  {
 
@@ -29,5 +29,4 @@ public class LoggerAspect  {
     public void logSuccess() {
         System.out.println("Method successfully returned");
     }
-
 }
