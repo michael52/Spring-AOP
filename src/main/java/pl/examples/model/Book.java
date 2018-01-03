@@ -8,7 +8,6 @@ public class Book {
     private String isbn;
     private String title;
     private String author;
-    private int pagesAmount;
 
     public Book(String isbn, String title, String author) {
         this.isbn = isbn;
