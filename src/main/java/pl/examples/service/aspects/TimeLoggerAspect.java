@@ -12,7 +12,7 @@ import java.time.Instant;
  * Created by toustym on 22.10.2017.
  */
 
-@Aspect
+//@Aspect
 @Component
 public class TimeLoggerAspect {
 
